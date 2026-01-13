@@ -90,6 +90,11 @@
           sync-mods = pkgs.writeShellScriptBin "stardew-sync-mods" ''
             ${pkgs.nushell}/bin/nu ${./scripts/sync-mods.nu} "$@"
           '';
+          
+          # Local network sync (Tailscale/SSH) - For transferring mods between PCs
+          sync-local = pkgs.writeShellScriptBin "stardew-sync-local" ''
+            ${pkgs.nushell}/bin/nu ${./scripts/sync-mods-local.nu} "$@"
+          '';
 
           # Quick setup check
           check-setup = pkgs.writeShellScriptBin "stardew-check-setup" ''

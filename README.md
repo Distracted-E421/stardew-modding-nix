@@ -158,17 +158,40 @@ stardew-check    # Verify STL setup
 4. **Windows Friends**: Extract zip to their Stardew Valley folder, overwriting `Mods`
 5. **Verify**: Everyone launches game to verify SMAPI loads all mods
 
-### For Your Wife (Also on NixOS)
+### For Evie (Also on NixOS - Same Network)
 
-1. Add this flake to her homelab config (same as yours)
-2. Use cloud sync to share mods:
-   ```bash
-   # You: push mods to cloud
-   nu scripts/sync-mods.nu cloud push
-   
-   # Her: pull mods from cloud
-   nu scripts/sync-mods.nu cloud pull
-   ```
+**Option A: Local Network Sync (Fastest)**
+
+Since both PCs are on Tailscale, transfer mods directly over SSH:
+
+```bash
+# From Obsidian: Push mods to Evie's PC
+nu scripts/sync-mods-local.nu evie@evie-desktop-1
+
+# Dry run first to see what will transfer
+nu scripts/sync-mods-local.nu evie@evie-desktop-1 --dry-run
+
+# Include save files too
+nu scripts/sync-mods-local.nu evie@evie-desktop-1 --include-saves
+
+# Pull mods FROM Evie's PC (reverse)
+nu scripts/sync-mods-local.nu evie@evie-desktop-1 --reverse
+```
+
+Or use the installed command (after rebuild):
+```bash
+stardew-sync-local evie@evie-desktop-1
+```
+
+**Option B: Cloud Sync (If not on same network)**
+
+```bash
+# You: push mods to cloud
+nu scripts/sync-mods.nu cloud push
+
+# Her: pull mods from cloud
+nu scripts/sync-mods.nu cloud pull
+```
 
 ## 🎮 Other Games
 
