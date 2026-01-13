@@ -87,11 +87,42 @@ in
     ];
 
     # ═══════════════════════════════════════════════════════════════════════
-    # STEAM COMPATIBILITY TOOLS SYMLINK
+    # STEAM COMPATIBILITY TOOLS DIRECTORY
     # ═══════════════════════════════════════════════════════════════════════
-    # Makes STL visible as a compatibility tool in Steam
-    home.file.".local/share/Steam/compatibilitytools.d/SteamTinkerLaunch".source =
-      "${pkgs.steamtinkerlaunch}/bin/steamtinkerlaunch";
+    # Steam needs a directory with compatibilitytool.vdf + the script
+    # This creates the proper structure for Steam to recognize STL
+    
+    # The toolmanifest.vdf file that Steam requires
+    home.file.".local/share/Steam/compatibilitytools.d/SteamTinkerLaunch/toolmanifest.vdf".text = ''
+      "manifest"
+      {
+        "version" "2"
+        "commandline" "/proton %verb%"
+      }
+    '';
+    
+    # The compatibilitytool.vdf that makes it show in Steam's dropdown
+    home.file.".local/share/Steam/compatibilitytools.d/SteamTinkerLaunch/compatibilitytool.vdf".text = ''
+      "compatibilitytools"
+      {
+        "compat_tools"
+        {
+          "SteamTinkerLaunch"
+          {
+            "install_path" "."
+            "display_name" "Steam Tinker Launch"
+            "from_oslist" "windows"
+            "to_oslist" "linux"
+          }
+        }
+      }
+    '';
+    
+    # The actual STL script (renamed to 'proton' as Steam calls it via %verb%)
+    home.file.".local/share/Steam/compatibilitytools.d/SteamTinkerLaunch/proton" = {
+      source = "${pkgs.steamtinkerlaunch}/bin/steamtinkerlaunch";
+      executable = true;
+    };
 
     # ═══════════════════════════════════════════════════════════════════════
     # STL GLOBAL CONFIGURATION
