@@ -1,0 +1,49 @@
+<header class="sticky top-0 z-40 bg-white/80 backdrop-blur-lg border-b-2 border-amber-200/50 shadow-sm">
+  <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="flex h-16 items-center justify-between">
+      <!-- Logo -->
+      <div class="flex items-center">
+        <a href={~p"/"} class="flex items-center gap-3 group">
+          <div class="h-10 w-10 rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center shadow-lg shadow-amber-500/30 group-hover:shadow-amber-500/50 transition-shadow">
+            <span class="text-2xl">🌾</span>
+          </div>
+          <span class="text-xl font-extrabold text-amber-800 hidden sm:block">
+            Stardew Mods
+          </span>
+        </a>
+      </div>
+      
+      <!-- Navigation -->
+      <div class="flex items-center gap-1 sm:gap-2">
+        <a href={~p"/"} class="px-3 py-2 rounded-lg text-amber-700 font-semibold hover:bg-amber-100 transition-colors">
+          Home
+        </a>
+        <a href={~p"/mods"} class="px-3 py-2 rounded-lg text-amber-700 font-semibold hover:bg-amber-100 transition-colors">
+          Browse Mods
+        </a>
+        <a href={~p"/guide"} class="px-3 py-2 rounded-lg text-amber-700 font-semibold hover:bg-amber-100 transition-colors">
+          Install Guide
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+  <.flash_group flash={@flash} />
+  {@inner_content}
+</main>
+
+<footer class="mt-auto border-t-2 border-amber-200/50 bg-white/50 backdrop-blur-sm">
+  <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+    <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p class="text-sm text-amber-600">
+        Made with 💛 for cozy co-op gaming
+      </p>
+      <p class="text-sm text-amber-500">
+        Not affiliated with ConcernedApe or Stardew Valley
+      </p>
+    </div>
+  </div>
+</footer>
+
