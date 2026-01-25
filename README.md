@@ -111,6 +111,57 @@ After installing, you need to configure Steam to use steam-tinker-launch:
 
 > **Note**: If you don't have Nexus Premium, you'll need to manually click "Slow Download" for each mod in the collection. This can be tedious for large collections!
 
+## 🔑 Nexus Mods API Downloads (Premium)
+
+**New!** Direct API-based mod downloading - bypass the broken collection handler entirely!
+
+### Setup
+
+1. Get your API key from [Nexus Mods API Settings](https://www.nexusmods.com/users/myaccount?tab=api)
+2. Save it to `.env` file in this directory (already gitignored):
+   ```bash
+   echo "YOUR_API_KEY_HERE" > .env
+   ```
+
+### Commands
+
+```bash
+# Validate your API key
+uv run scripts/nexus-api.py validate-key
+
+# List all mods that will be downloaded
+uv run scripts/download-collection.py --list
+
+# Download ALL mods (Premium required for direct downloads)
+uv run scripts/download-collection.py
+
+# Download and extract to Mods folder automatically
+uv run scripts/download-collection.py --extract
+
+# Download a specific mod by ID
+uv run scripts/download-collection.py --mod 3753  # SVE
+
+# Search for mods
+uv run scripts/nexus-api.py search "Content Patcher"
+
+# Get mod details
+uv run scripts/nexus-api.py info 3753
+```
+
+### How It Works
+
+1. **Catalog**: `collection-catalog-with-ids.json` contains all 95 mods with their Nexus IDs
+2. **API Download**: Premium users get direct download links via API (no browser needed!)
+3. **Auto-extract**: Use `--extract` to unzip directly to your Mods folder
+
+### Benefits Over Vortex/STL
+
+- ✅ **No Wine/Proton issues** - pure Python
+- ✅ **No browser required** - direct API downloads
+- ✅ **Works perfectly on NixOS** - no FHS compatibility hacks
+- ✅ **Scriptable** - integrate into your homelab dashboard/TUI
+- ✅ **Fast** - parallel downloads with progress tracking
+
 ## 📂 Mod Sync & Sharing
 
 Use the included Nushell sync script:

@@ -1,0 +1,1321 @@
+{
+  "collection": "VERY Expanded + Fairycore (Merged)",
+  "sources": [
+    {
+      "name": "Stardew Valley VERY Expanded",
+      "url": "https://www.nexusmods.com/games/stardewvalley/collections/tckf0m"
+    },
+    {
+      "name": "Aesthetic Valley | Fairycore",
+      "url": "https://www.nexusmods.com/games/stardewvalley/collections/tjvl0j"
+    }
+  ],
+  "notes": [
+    "FARM CONFIG: When configuring SVE, select 'Frontier Farm' (not Immersive Farm 2 or Grandpa's Farm).",
+    "Frontier Farm is an SVE config option with expansive land bordering the Ferngill Republic Frontier.",
+    "All optional mods from both collections included.",
+    "Deduplicated - each mod appears once.",
+    "Lnh's MiNi Farm excluded (conflicts with SVE Frontier Farm)."
+  ],
+  "total_mods": 155,
+  "mods_with_ids": 152,
+  "mods": [
+    {
+      "name": "(Content Patcher) Spouse Rooms Redesigned",
+      "uploader": "RyukanoHi",
+      "category": "Locations",
+      "section": "Required",
+      "mod_id": 5906,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/5906"
+    },
+    {
+      "name": "(CP and AT) Nano's Garden Style Craftables",
+      "uploader": "NanoIsNotRobot",
+      "category": "Crafting",
+      "section": "Required",
+      "mod_id": 21685,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21685",
+      "source": "Fairycore"
+    },
+    {
+      "name": "(CP) I Fixed Him - A Shane Consistency Mod",
+      "uploader": "joiinks",
+      "category": "Characters",
+      "section": "Required",
+      "mod_id": 21660,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21660"
+    },
+    {
+      "name": "(FS - CP) Kkunma Hair collection",
+      "uploader": "halpyy",
+      "category": "Player",
+      "section": "Required",
+      "mod_id": 19654,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/19654",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Add Berry Seasons to Calendar",
+      "uploader": "inmognito",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 14815,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/14815"
+    },
+    {
+      "name": "Aesthetic Secret Notes",
+      "uploader": "Wakasagihime99",
+      "category": "Items",
+      "section": "Required",
+      "mod_id": 21639,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21639",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Alternative Textures",
+      "uploader": "PeacefulEnd",
+      "category": "Modding Tools",
+      "section": "Required",
+      "mod_id": 9246,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/9246",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Animated Bird Tappers",
+      "uploader": "dollynhoevida",
+      "category": "Crafting",
+      "section": "Required",
+      "mod_id": 15423,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/15423",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Animated Clothes",
+      "uploader": "Gervig91",
+      "category": "Clothing",
+      "section": "Required",
+      "mod_id": 11025,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/11025"
+    },
+    {
+      "name": "Animated Duck Crab Pots for Alternative Textures",
+      "uploader": "JennaJuffuffles",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 21645,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21645",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Animated East Scarp Fish",
+      "uploader": "Gervig91",
+      "category": "Fishing",
+      "section": "Required",
+      "mod_id": 8489,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/8489"
+    },
+    {
+      "name": "Animated Fairies for Alternative Textures",
+      "uploader": "JennaJuffuffles",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 21644,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21644",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Animated Fish",
+      "uploader": "Gervig91",
+      "category": "Fishing",
+      "section": "Required",
+      "mod_id": 4468,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/4468"
+    },
+    {
+      "name": "Animated Fish SVE",
+      "uploader": "Gervig91",
+      "category": "Fishing",
+      "section": "Required",
+      "mod_id": 8584,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/8584"
+    },
+    {
+      "name": "Animated Food and Drinks",
+      "uploader": "Gervig91",
+      "category": "Items",
+      "section": "Required",
+      "mod_id": 7548,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/7548"
+    },
+    {
+      "name": "Animated Frog Pots",
+      "uploader": "dollynhoevida",
+      "category": "Crafting",
+      "section": "Required",
+      "mod_id": 17384,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/17384",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Animated Furniture and Stuff",
+      "uploader": "Gervig91",
+      "category": "Furniture",
+      "section": "Required",
+      "mod_id": 8456,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/8456"
+    },
+    {
+      "name": "Animated Gemstones 1.1.7",
+      "uploader": "undare",
+      "category": "Items",
+      "section": "Required",
+      "mod_id": 14797,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/14797"
+    },
+    {
+      "name": "Animated Ridgeside Village Fish",
+      "uploader": "Gervig91",
+      "category": "Fishing",
+      "section": "Required",
+      "mod_id": 10315,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/10315"
+    },
+    {
+      "name": "Animated Slime Eggs and Loot",
+      "uploader": "Gervig91",
+      "category": "Items",
+      "section": "Required",
+      "mod_id": 11072,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/11072"
+    },
+    {
+      "name": "Anniversary on Calendar",
+      "uploader": "greentodd",
+      "category": "Miscellaneous",
+      "section": "Required",
+      "mod_id": 8351,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/8351"
+    },
+    {
+      "name": "AT Sweetheart Furniture Set",
+      "uploader": "wabiii",
+      "category": "Furniture",
+      "section": "Required",
+      "mod_id": 18917,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/18917",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Automate",
+      "uploader": "Pathoschild",
+      "category": "Gameplay Mechanics",
+      "section": "Required",
+      "mod_id": 1063,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/1063"
+    },
+    {
+      "name": "Bathhouse Hot Spring - Continued",
+      "uploader": "Sandman53",
+      "category": "Maps",
+      "section": "Required",
+      "mod_id": 21679,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21679",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Bear Craftables (CP and AT)",
+      "uploader": "holythesea",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 13881,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/13881",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Better Crafting",
+      "uploader": "KhloeLeclair",
+      "category": "Crafting",
+      "section": "Required",
+      "mod_id": 11115,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/11115"
+    },
+    {
+      "name": "Better Signs",
+      "uploader": "stebaker92",
+      "category": "Miscellaneous",
+      "section": "Required",
+      "mod_id": 20884,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/20884"
+    },
+    {
+      "name": "Buildable Ginger Island Farm",
+      "uploader": "mouahrara",
+      "category": "Buildings",
+      "section": "Required",
+      "mod_id": 20601,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/20601"
+    },
+    {
+      "name": "Button's Extra Trigger Action Stuff (BETAS)",
+      "uploader": "Spiderbuttons",
+      "category": "Modding Tools",
+      "section": "Required",
+      "mod_id": 22163,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/22163"
+    },
+    {
+      "name": "Casual Furniture Set",
+      "uploader": "katestardew",
+      "category": "Furniture",
+      "section": "Required",
+      "mod_id": 21582,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21582",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Chests Anywhere",
+      "uploader": "Pathoschild",
+      "category": "User Interface",
+      "section": "Required",
+      "mod_id": 518,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/518"
+    },
+    {
+      "name": "Clint Reforged",
+      "uploader": "SoftPandaBoi",
+      "category": "Characters",
+      "section": "Required",
+      "mod_id": 21536,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21536"
+    },
+    {
+      "name": "Community Center Reimagined",
+      "uploader": "lemurkat",
+      "category": "Events",
+      "section": "Required",
+      "mod_id": 6966,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/6966"
+    },
+    {
+      "name": "Content Patcher",
+      "uploader": "Pathoschild",
+      "category": "Modding Tools",
+      "section": "Required",
+      "mod_id": 1915,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/1915"
+    },
+    {
+      "name": "Content Patcher Animations",
+      "uploader": "spacechase0",
+      "category": "Modding Tools",
+      "section": "Required",
+      "mod_id": 3853,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3853"
+    },
+    {
+      "name": "Convenient Inventory",
+      "uploader": "gaussfire",
+      "category": "Gameplay Mechanics",
+      "section": "Required",
+      "mod_id": 18949,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/18949"
+    },
+    {
+      "name": "Cottage Core Walls and Floors AT",
+      "uploader": "DatGrayFox",
+      "category": "Buildings",
+      "section": "Required",
+      "mod_id": 12469,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/12469",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Cottagecore Fences for Alternative Textures",
+      "uploader": "Gweniaczek",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 11813,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/11813",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Custom Companions",
+      "uploader": "PeacefulEnd",
+      "category": "Modding Tools",
+      "section": "Required",
+      "mod_id": 8626,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/8626"
+    },
+    {
+      "name": "Cute and Tidy Coops and Barns",
+      "uploader": "neuralwiles",
+      "category": "Maps",
+      "section": "Required",
+      "mod_id": 18992,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/18992",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Cute gift box",
+      "uploader": "Bitnaaa",
+      "category": "User Interface",
+      "section": "Required",
+      "mod_id": 21633,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21633",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Cute Pastel Calendar",
+      "uploader": "naeldeus",
+      "category": "Items",
+      "section": "Required",
+      "mod_id": 18534,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/18534",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Cute Prize Tickets",
+      "uploader": "LooneyLuny",
+      "category": "Items",
+      "section": "Required",
+      "mod_id": 21631,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21631",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Cuter Slimes Refreshed",
+      "uploader": "JennaJuffuffles",
+      "category": "Livestock and Animals",
+      "section": "Required",
+      "mod_id": 21629,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21629"
+    },
+    {
+      "name": "DaisyNiko's Tilesheets",
+      "uploader": "DaisyNiko",
+      "category": "Modding Tools",
+      "section": "Required",
+      "mod_id": 4736,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/4736"
+    },
+    {
+      "name": "Dawn's Hummingbird Wings for Fashion Sense",
+      "uploader": "LooneyLuny",
+      "category": "Clothing",
+      "section": "Required",
+      "mod_id": 21634,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21634",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Dialogue Display Framework Continued (DDFC)",
+      "uploader": "MangusuPixel",
+      "category": "User Interface",
+      "section": "Required",
+      "mod_id": 18925,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/18925"
+    },
+    {
+      "name": "Dialogue Display Tweaks - Configurable Dialogue Box UI",
+      "uploader": "ItsBenter",
+      "category": "User Interface",
+      "section": "Required",
+      "mod_id": 22104,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/22104"
+    },
+    {
+      "name": "Dynamic Reflections",
+      "uploader": "PeacefulEnd",
+      "category": "Modding Tools",
+      "section": "Required",
+      "mod_id": 15833,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/15833"
+    },
+    {
+      "name": "East Scarp",
+      "uploader": "lemurkat",
+      "category": "Expansions",
+      "section": "Required",
+      "mod_id": 5787,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/5787"
+    },
+    {
+      "name": "Elle's Cuter Barn Animals",
+      "uploader": "junimods",
+      "category": "Livestock and Animals",
+      "section": "Required",
+      "mod_id": 3167,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3167",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Elle's Cuter Cats",
+      "uploader": "junimods",
+      "category": "Pets / Horses",
+      "section": "Required",
+      "mod_id": 3872,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3872",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Elle's Cuter Coop Animals",
+      "uploader": "junimods",
+      "category": "Livestock and Animals",
+      "section": "Required",
+      "mod_id": 3168,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3168",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Elle's Cuter Dogs",
+      "uploader": "junimods",
+      "category": "Pets / Horses",
+      "section": "Required",
+      "mod_id": 3871,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3871",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Event Limiter",
+      "uploader": "TheMightyAmondee",
+      "category": "Gameplay Mechanics",
+      "section": "Required",
+      "mod_id": 10735,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/10735"
+    },
+    {
+      "name": "Event Lookup",
+      "uploader": "shekurika",
+      "category": "User Interface",
+      "section": "Required",
+      "mod_id": 8505,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/8505"
+    },
+    {
+      "name": "Fae Wing Set (Fashion Sense)",
+      "uploader": "hummingmints",
+      "category": "Clothing",
+      "section": "Required",
+      "mod_id": 14459,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/14459",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Fae's Elf Ears",
+      "uploader": "FaerieFangs0",
+      "category": "Clothing",
+      "section": "Required",
+      "mod_id": 21632,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21632",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Farm Type Manager (FTM)",
+      "uploader": "EscaMMC",
+      "category": "Modding Tools",
+      "section": "Required",
+      "mod_id": 3231,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3231"
+    },
+    {
+      "name": "Fashion Sense",
+      "uploader": "PeacefulEnd",
+      "category": "Modding Tools",
+      "section": "Required",
+      "mod_id": 9969,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/9969",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Faster Path Speed",
+      "uploader": "gaussfire",
+      "category": "Gameplay Mechanics",
+      "section": "Required",
+      "mod_id": 11505,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/11505"
+    },
+    {
+      "name": "Font Settings",
+      "uploader": "Becks723",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 12467,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/12467"
+    },
+    {
+      "name": "Four sets of fairy clothes",
+      "uploader": "damiemieteacher",
+      "category": "Clothing",
+      "section": "Required",
+      "mod_id": 21636,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21636",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Friends Forever (1.6)",
+      "uploader": "Kriana",
+      "category": "Gameplay Mechanics",
+      "section": "Required",
+      "mod_id": 5767,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/5767"
+    },
+    {
+      "name": "Frog Hat (FS) (CP) Available",
+      "uploader": "Schmellows",
+      "category": "Player",
+      "section": "Required",
+      "mod_id": 21642,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21642",
+      "source": "Fairycore"
+    },
+    {
+      "name": "FS - Animal Features",
+      "uploader": "MousyModder",
+      "category": "Clothing",
+      "section": "Required",
+      "mod_id": 17591,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/17591",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Furniture Example Pack for Alternative Textures (Pink-Blue)",
+      "uploader": "lnss94",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 11817,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/11817",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Generic Mod Config Menu (GMCM)",
+      "uploader": "spacechase0",
+      "category": "Modding Tools",
+      "section": "Required",
+      "mod_id": 5098,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/5098"
+    },
+    {
+      "name": "Happy Home Designer",
+      "uploader": "tlitookilakin",
+      "category": "User Interface",
+      "section": "Required",
+      "mod_id": 21671,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21671",
+      "source": "Fairycore"
+    },
+    {
+      "name": "HxW Tilesheets",
+      "uploader": "HimeTarts",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 6014,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/6014"
+    },
+    {
+      "name": "Integrated Minecarts - A Minecart Expansion",
+      "uploader": "Jibblestein",
+      "category": "Expansions",
+      "section": "Required",
+      "mod_id": 11893,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/11893"
+    },
+    {
+      "name": "Kari's Delivery Service - A Seasonal Mailbox Mod",
+      "uploader": "kariiiii",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 21654,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21654",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Kyuya's accessories pack",
+      "uploader": "Kyuya258369",
+      "category": "Clothing",
+      "section": "Required",
+      "mod_id": 17978,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/17978",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Kyuya's hats pack",
+      "uploader": "Kyuya258369",
+      "category": "Clothing",
+      "section": "Required",
+      "mod_id": 17977,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/17977",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Lookup Anything",
+      "uploader": "Pathoschild",
+      "category": "User Interface",
+      "section": "Required",
+      "mod_id": 541,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/541"
+    },
+    {
+      "name": "Lumisteria Tilesheets - Indoor",
+      "uploader": "Lumisteria",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 9599,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/9599"
+    },
+    {
+      "name": "Lumisteria Tilesheets - Outdoor",
+      "uploader": "Lumisteria",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 9601,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/9601"
+    },
+    {
+      "name": "Luny's Flower Veils for Fashion Sense",
+      "uploader": "LooneyLuny",
+      "category": "Clothing",
+      "section": "Required",
+      "mod_id": 21637,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21637",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Machine Input Return - Get Your Items Back",
+      "uploader": "Trapyy",
+      "category": "Gameplay Mechanics",
+      "section": "Required",
+      "mod_id": 17282,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/17282"
+    },
+    {
+      "name": "Mail Framework Mod",
+      "uploader": "Digus",
+      "category": "Modding Tools",
+      "section": "Required",
+      "mod_id": 1536,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/1536"
+    },
+    {
+      "name": "Mapping Extensions and Extra Properties (MEEP)",
+      "uploader": "DecidedlyHuman",
+      "category": "Modding Tools",
+      "section": "Required",
+      "mod_id": 14493,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/14493"
+    },
+    {
+      "name": "Marnie Deserves Better",
+      "uploader": "IllogicalMoodSwing",
+      "category": "Events",
+      "section": "Required",
+      "mod_id": 14552,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/14552"
+    },
+    {
+      "name": "Mini Bars - Healthbars Mod",
+      "uploader": "Coldopa",
+      "category": "User Interface",
+      "section": "Required",
+      "mod_id": 11818,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/11818"
+    },
+    {
+      "name": "Multi Save - Continued",
+      "uploader": "recon88",
+      "category": "Gameplay Mechanics",
+      "section": "Required",
+      "mod_id": 9927,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/9927"
+    },
+    {
+      "name": "Mushroom Furniture for Alternative Textures",
+      "uploader": "farmerbeans",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 14461,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/14461",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Myc's Seasonal Fireplace for CP and AT",
+      "uploader": "Mycenia",
+      "category": "Furniture",
+      "section": "Required",
+      "mod_id": 13562,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/13562",
+      "source": "Fairycore"
+    },
+    {
+      "name": "No Pam Enabling (CP)",
+      "uploader": "recon88",
+      "category": "Gameplay Mechanics",
+      "section": "Required",
+      "mod_id": 9792,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/9792"
+    },
+    {
+      "name": "NPC Map Locations",
+      "uploader": "Bouhm",
+      "category": "User Interface",
+      "section": "Required",
+      "mod_id": 239,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/239"
+    },
+    {
+      "name": "Oh So Cute Kitchen",
+      "uploader": "katestardew",
+      "category": "Interiors",
+      "section": "Required",
+      "mod_id": 21581,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21581",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Part of the Community",
+      "uploader": "bmarquismarkail",
+      "category": "Gameplay Mechanics",
+      "section": "Required",
+      "mod_id": 923,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/923"
+    },
+    {
+      "name": "Plain Slime Hutch Interior",
+      "uploader": "sparrows413",
+      "category": "Buildings",
+      "section": "Required",
+      "mod_id": 11920,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/11920",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Precise Furniture",
+      "uploader": "FearGodFishFish",
+      "category": "Furniture",
+      "section": "Required",
+      "mod_id": 21628,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21628",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Pretty Pink Furniture Recolour",
+      "uploader": "twinkle22",
+      "category": "Furniture",
+      "section": "Required",
+      "mod_id": 20839,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/20839",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Pretty Pink Wallpaper",
+      "uploader": "twinkle22",
+      "category": "Interiors",
+      "section": "Required",
+      "mod_id": 21648,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21648",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Pretty Wallpaper",
+      "uploader": "twinkle22",
+      "category": "Interiors",
+      "section": "Required",
+      "mod_id": 21647,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21647",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Relocate Buildings And Farm Animals",
+      "uploader": "mouahrara",
+      "category": "Gameplay Mechanics",
+      "section": "Required",
+      "mod_id": 20606,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/20606"
+    },
+    {
+      "name": "Ridgeside Village",
+      "uploader": "Rafseazz",
+      "category": "Expansions",
+      "section": "Required",
+      "mod_id": 7286,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/7286"
+    },
+    {
+      "name": "Schedule Viewer",
+      "uploader": "BinaryLip",
+      "category": "User Interface",
+      "section": "Required",
+      "mod_id": 19594,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/19594"
+    },
+    {
+      "name": "Seasonal Cute Characters for East Scarp",
+      "uploader": "Poltergeister",
+      "category": "Characters",
+      "section": "Required",
+      "mod_id": 13872,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/13872"
+    },
+    {
+      "name": "Seasonal Hedge Fences (Starblue)",
+      "uploader": "JennaJuffuffles",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 21643,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21643",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Seasonal Mariner To Mermaid",
+      "uploader": "JennaJuffuffles",
+      "category": "Characters",
+      "section": "Required",
+      "mod_id": 21635,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21635"
+    },
+    {
+      "name": "Seasonal Outfits - Slightly Cuter Aesthetic",
+      "uploader": "Poltergeister",
+      "category": "Characters",
+      "section": "Required",
+      "mod_id": 5450,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/5450"
+    },
+    {
+      "name": "Seasonal Outfits - Slightly Cuter Aesthetic for SVE",
+      "uploader": "Poltergeister",
+      "category": "Characters",
+      "section": "Required",
+      "mod_id": 5969,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/5969"
+    },
+    {
+      "name": "Seasonal Outfits for Ridgeside Village",
+      "uploader": "Rafseazz",
+      "category": "Clothing",
+      "section": "Required",
+      "mod_id": 15065,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/15065"
+    },
+    {
+      "name": "Shardust's Pastel Furniture for Alternative Textures",
+      "uploader": "Shardust",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 17123,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/17123",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Shardust's Pastel Interiors - kitchen - crib - cellar - shed - cabin",
+      "uploader": "Shardust",
+      "category": "Interiors",
+      "section": "Required",
+      "mod_id": 17122,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/17122",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Sharogg's Tilesheets (modular bridges and more to come)",
+      "uploader": "Sharogg",
+      "category": "Modding Tools",
+      "section": "Required",
+      "mod_id": 21656,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21656",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Show Item Quality (1.6 Unofficial)",
+      "uploader": "BussinBungus",
+      "category": "User Interface",
+      "section": "Required",
+      "mod_id": 19763,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/19763"
+    },
+    {
+      "name": "Simple Foliage - Unofficial Update for 1.6",
+      "uploader": "Morghoula",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 21668,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21668",
+      "source": "Fairycore"
+    },
+    {
+      "name": "SinZational Speedy Solutions",
+      "uploader": "SinZ163",
+      "category": "Miscellaneous",
+      "section": "Required",
+      "mod_id": 22163,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/22163"
+    },
+    {
+      "name": "Sit For Stamina",
+      "uploader": "Entoarox",
+      "category": "Gameplay Mechanics",
+      "section": "Required",
+      "mod_id": 2717,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/2717"
+    },
+    {
+      "name": "Skell's Flowery Weapons",
+      "uploader": "skellady",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 21651,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21651",
+      "source": "Fairycore"
+    },
+    {
+      "name": "SMAPI - Stardew Modding API",
+      "uploader": "Pathoschild",
+      "category": "Modding Tools",
+      "section": "Required",
+      "mod_id": 2400,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/2400"
+    },
+    {
+      "name": "Social Page Order Redux",
+      "uploader": "FlyingTNT",
+      "category": "User Interface",
+      "section": "Required",
+      "mod_id": 12217,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/12217"
+    },
+    {
+      "name": "Solarium (Rooftop Spa House) - Continued",
+      "uploader": "ferngull",
+      "category": "Locations",
+      "section": "Required",
+      "mod_id": 21680,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21680"
+    },
+    {
+      "name": "SpaceCore",
+      "uploader": "spacechase0",
+      "category": "Modding Tools",
+      "section": "Required",
+      "mod_id": 1348,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/1348"
+    },
+    {
+      "name": "Spouses React to Player 'Death'",
+      "uploader": "CasualInvidia",
+      "category": "Events",
+      "section": "Required",
+      "mod_id": 22154,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/22154"
+    },
+    {
+      "name": "Standardized Seed Sprites",
+      "uploader": "x7eventy7",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 27098,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/27098"
+    },
+    {
+      "name": "Stardew Valley Expanded",
+      "uploader": "FlashShifter",
+      "category": "Expansions",
+      "section": "Required",
+      "mod_id": 3753,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3753"
+    },
+    {
+      "name": "Stardew Valley VERY Configured (1.6)",
+      "uploader": "JennaJuffuffles",
+      "category": "Miscellaneous",
+      "section": "Required",
+      "mod_id": 21652,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21652"
+    },
+    {
+      "name": "SVE Trees Recolored - For Popular Recolors",
+      "uploader": "Morghoula",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 21661,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21661",
+      "source": "Fairycore"
+    },
+    {
+      "name": "They Deserve It Too - Portraits for Extras",
+      "uploader": "DolphinIsNotaFish",
+      "category": "Portraits",
+      "section": "Required",
+      "mod_id": 21785,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21785"
+    },
+    {
+      "name": "They Deserve It Too - Portraits for Vendors",
+      "uploader": "DolphinIsNotaFish",
+      "category": "Portraits",
+      "section": "Required",
+      "mod_id": 21786,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21786"
+    },
+    {
+      "name": "Tidy Pam (Content Patcher)",
+      "uploader": "Fippsie",
+      "category": "Buildings",
+      "section": "Required",
+      "mod_id": 21695,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21695"
+    },
+    {
+      "name": "Time Master (UNOFFICIAL UPDATE)",
+      "uploader": "pipedream420",
+      "category": "Gameplay Mechanics",
+      "section": "Required",
+      "mod_id": 14853,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/14853"
+    },
+    {
+      "name": "Tiny Totem Statue Obelisks",
+      "uploader": "JennaJuffuffles",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 21680,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21680"
+    },
+    {
+      "name": "To-Dew",
+      "uploader": "jltaylor1",
+      "category": "User Interface",
+      "section": "Required",
+      "mod_id": 7409,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/7409"
+    },
+    {
+      "name": "Trinket Tinker",
+      "uploader": "mushymato",
+      "category": "Modding Tools",
+      "section": "Required",
+      "mod_id": 22091,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/22091"
+    },
+    {
+      "name": "UI Info Suite 2",
+      "uploader": "Abs0rbed",
+      "category": "User Interface",
+      "section": "Required",
+      "mod_id": 10879,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/10879"
+    },
+    {
+      "name": "Universal Recolors",
+      "uploader": "herbivoor",
+      "category": "Visuals and Graphics",
+      "section": "Required",
+      "mod_id": 21669,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21669",
+      "source": "Fairycore"
+    },
+    {
+      "name": "World Maps everywhere",
+      "uploader": "shekurika",
+      "category": "User Interface",
+      "section": "Required",
+      "mod_id": 20194,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/20194"
+    },
+    {
+      "name": "Yagisan's Custom NPCs for NPC Map Locations",
+      "uploader": "Yagichan",
+      "category": "Miscellaneous",
+      "section": "Required",
+      "mod_id": 8174,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/8174"
+    },
+    {
+      "name": "Yomi's Cute Princess Dress-FS (Applicable 1.6)",
+      "uploader": "Yomi2023",
+      "category": "Clothing",
+      "section": "Required",
+      "mod_id": 21649,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21649",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Yomi's Golden Princess Hairstyle-FS (Applicable 1.6)",
+      "uploader": "Yomi2023",
+      "category": "Clothing",
+      "section": "Required",
+      "mod_id": 21650,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21650",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Additional Farm Cave",
+      "uploader": "tikamin557",
+      "category": "Maps",
+      "section": "Optional",
+      "mod_id": 16802,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/16802"
+    },
+    {
+      "name": "Creative Differences - NPC Rodney (East Scarp)",
+      "uploader": "TheFrenchDodo",
+      "category": "New Characters",
+      "section": "Optional",
+      "mod_id": 10389,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/10389"
+    },
+    {
+      "name": "Downhill Project - Expanded Map for Custom NPCs",
+      "uploader": "Kiyugamods",
+      "category": "Expansions",
+      "section": "Optional",
+      "mod_id": 21519,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21519"
+    },
+    {
+      "name": "Eli and Dylan - Custom NPCs for East Scarp",
+      "uploader": "TenebrousNova",
+      "category": "New Characters",
+      "section": "Optional",
+      "mod_id": 10413,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/10413"
+    },
+    {
+      "name": "Forest Wood Craftables",
+      "uploader": "TangaS2",
+      "category": "Crafting",
+      "section": "Optional",
+      "mod_id": 17594,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/17594",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Leilani (NPC for Ridgeside Village)",
+      "uploader": "zoedoll",
+      "category": "New Characters",
+      "section": "Optional",
+      "mod_id": 10414,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/10414"
+    },
+    {
+      "name": "Lurking in the Dark - NPC Sen (East Scarp)",
+      "uploader": "7thAxis",
+      "category": "New Characters",
+      "section": "Optional",
+      "mod_id": 10413,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/10413"
+    },
+    {
+      "name": "Nora The Herpetologist - Custom NPC for East Scarp",
+      "uploader": "bagibagriela",
+      "category": "New Characters",
+      "section": "Optional",
+      "mod_id": 10571,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/10571"
+    },
+    {
+      "name": "Overgrown Flowery Interface",
+      "uploader": "SugarSugarRuin",
+      "category": "User Interface",
+      "section": "Optional",
+      "mod_id": 21640,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21640",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Seasonal Floral Bus Recolor",
+      "uploader": "herbivoor",
+      "category": "Visuals and Graphics",
+      "section": "Optional",
+      "mod_id": 21641,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21641",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Seasonal Flower Sprinklers Refreshed",
+      "uploader": "JennaJuffuffles",
+      "category": "Visuals and Graphics",
+      "section": "Optional",
+      "mod_id": 21646,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21646",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Skell's Flowery Tools",
+      "uploader": "skellady",
+      "category": "Visuals and Graphics",
+      "section": "Optional",
+      "mod_id": 21653,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21653",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Squishi's Rideable Deer for Content Patcher and Alternatve Textures",
+      "uploader": "altroquinine",
+      "category": "Pets / Horses",
+      "section": "Optional",
+      "mod_id": 16875,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/16875",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Starblue Valley Unofficial",
+      "uploader": "CherrySymphony",
+      "category": "Visuals and Graphics",
+      "section": "Optional",
+      "mod_id": 21666,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21666",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Stardew Valley Expanded (Optional version)",
+      "uploader": "FlashShifter",
+      "category": "Expansions",
+      "section": "Optional"
+    },
+    {
+      "name": "Sunroom Greenhouse",
+      "uploader": "Sharogg",
+      "category": "Maps",
+      "section": "Optional",
+      "mod_id": 21667,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/21667",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Sword and Sorcery - A Fantasy Expansion for East Scarp",
+      "uploader": "DestyNova",
+      "category": "New Characters",
+      "section": "Optional",
+      "mod_id": 12369,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/12369"
+    },
+    {
+      "name": "Tanga forest Buildings",
+      "uploader": "TangaS2",
+      "category": "Buildings",
+      "section": "Optional",
+      "mod_id": 18374,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/18374",
+      "source": "Fairycore"
+    },
+    {
+      "name": "Tanga forest Gold Clock",
+      "uploader": "TangaS2",
+      "category": "Buildings",
+      "section": "Optional",
+      "mod_id": 18376,
+      "url": "https://www.nexusmods.com/stardewvalley/mods/18376",
+      "source": "Fairycore"
+    },
+    {
+      "name": "ItsStardewTime Manifest Patch",
+      "uploader": "",
+      "category": "",
+      "section": "Bundled Assets"
+    },
+    {
+      "name": "Solarium Spa - Continued Patch",
+      "uploader": "",
+      "category": "",
+      "section": "Bundled Assets"
+    }
+  ]
+}
