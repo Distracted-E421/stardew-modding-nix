@@ -1,7 +1,7 @@
 defmodule ModDistributor.Catalog do
   @moduledoc """
   Manages the mod catalog - metadata about all available mods.
-  
+
   Loads mod information from catalog.json and provides querying capabilities.
   """
   use GenServer
@@ -56,7 +56,7 @@ defmodule ModDistributor.Catalog do
       {:ok, catalog} ->
         Logger.info("Loaded mod catalog with #{length(catalog.mods)} mods")
         {:ok, catalog}
-      
+
       {:error, reason} ->
         Logger.warning("Failed to load mod catalog: #{inspect(reason)}. Starting with empty catalog.")
         {:ok, empty_catalog()}
@@ -89,7 +89,7 @@ defmodule ModDistributor.Catalog do
   def handle_call({:get_preset_mods, preset_name}, _from, state) do
     case Map.get(state.presets, preset_name) do
       nil -> {:reply, {:error, :not_found}, state}
-      mod_ids -> 
+      mod_ids ->
         mods = Enum.filter(state.mods, &(&1.id in mod_ids))
         {:reply, {:ok, mods}, state}
     end
@@ -108,14 +108,14 @@ defmodule ModDistributor.Catalog do
   end
 
   @impl true
-  def handle_call(:reload, _from, _state) do
+  def handle_call(:reload, _from, state) do
     case load_catalog() do
       {:ok, catalog} ->
         Logger.info("Reloaded mod catalog with #{length(catalog.mods)} mods")
         {:reply, :ok, catalog}
-      
+
       {:error, reason} ->
-        {:reply, {:error, reason}, _state}
+        {:reply, {:error, reason}, state}
     end
   end
 
@@ -123,7 +123,7 @@ defmodule ModDistributor.Catalog do
 
   defp load_catalog do
     catalog_path = Application.get_env(:mod_distributor, :catalog_path, "priv/catalog.json")
-    
+
     with {:ok, contents} <- File.read(catalog_path),
          {:ok, data} <- Jason.decode(contents, keys: :atoms) do
       catalog = %{
@@ -165,4 +165,3 @@ defmodule ModDistributor.Catalog do
     }
   end
 end
-

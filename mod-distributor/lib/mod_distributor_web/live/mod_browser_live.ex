@@ -105,14 +105,14 @@ defmodule ModDistributorWeb.ModBrowserLive do
         <div>
           <h1 class="text-3xl font-bold text-amber-800">Browse Mods</h1>
           <p class="text-amber-600">
-            {length(@all_mods)} mods available · {MapSet.size(@selected_mods)} selected
+            <%= length(@all_mods) %> mods available · <%= MapSet.size(@selected_mods) %> selected
           </p>
         </div>
         
         <%= if MapSet.size(@selected_mods) > 0 do %>
           <.link navigate={~p"/download?mods=#{Enum.join(@selected_mods, ",")}"}>
             <.button variant="primary">
-              Download {MapSet.size(@selected_mods)} Selected →
+              Download <%= MapSet.size(@selected_mods) %> Selected →
             </.button>
           </.link>
         <% end %>
@@ -216,7 +216,7 @@ defmodule ModDistributorWeb.ModBrowserLive do
                 <!-- Content -->
                 <div class="flex-1 min-w-0">
                   <div class="flex items-center gap-2 flex-wrap">
-                    <h3 class="font-bold text-amber-800">{mod.name}</h3>
+                    <h3 class="font-bold text-amber-800"><%= mod.name %></h3>
                     <%= if mod.required do %>
                       <.badge variant="error">Required</.badge>
                     <% end %>
@@ -224,15 +224,15 @@ defmodule ModDistributorWeb.ModBrowserLive do
                   </div>
                   
                   <p class="text-sm text-amber-600 mt-1">
-                    by {mod.author} · v{mod.version}
+                    by <%= mod.author %> · v<%= mod.version %>
                     <%= if mod.size_mb > 0 do %>
-                      · {mod.size_mb} MB
+                      · <%= mod.size_mb %> MB
                     <% end %>
                   </p>
                   
                   <%= if mod.description do %>
                     <p class="text-sm text-amber-700 mt-2 line-clamp-2">
-                      {mod.description}
+                      <%= mod.description %>
                     </p>
                   <% end %>
                   
@@ -249,7 +249,7 @@ defmodule ModDistributorWeb.ModBrowserLive do
                     href={"https://www.nexusmods.com/stardewvalley/mods/#{mod.nexus_id}"}
                     target="_blank"
                     rel="noopener"
-                    phx-click={JS.stop_propagation()}
+                    onclick="event.stopPropagation()"
                     class="flex-none px-3 py-1 rounded-lg bg-amber-100 text-amber-700 text-sm font-medium hover:bg-amber-200 transition-colors"
                   >
                     Nexus →
@@ -266,7 +266,7 @@ defmodule ModDistributorWeb.ModBrowserLive do
         <div class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50">
           <div class="bg-amber-800 text-white rounded-2xl px-6 py-4 shadow-2xl shadow-amber-900/30 flex items-center gap-6">
             <span class="font-semibold">
-              {MapSet.size(@selected_mods)} mods selected
+              <%= MapSet.size(@selected_mods) %> mods selected
             </span>
             <.link navigate={~p"/download?mods=#{Enum.join(@selected_mods, ",")}"}>
               <.button variant="primary" class="bg-white text-amber-800 hover:bg-amber-100">

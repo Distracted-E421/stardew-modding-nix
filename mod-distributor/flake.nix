@@ -48,15 +48,13 @@
             # Install hex and rebar if not present
             if [ ! -d "$MIX_HOME" ]; then
               echo "Setting up Elixir development environment..."
-              mix local.hex --force --if-missing
-              mix local.rebar --force --if-missing
+              mix local.hex --force --if-missing 2>/dev/null
+              mix local.rebar --force --if-missing 2>/dev/null
             fi
             
             echo ""
             echo "🌾 Stardew Mod Distributor Development Environment"
             echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-            echo "Elixir:  $(elixir --version | head -1)"
-            echo "Erlang:  $(erl -eval 'io:fwrite(\"~s~n\", [erlang:system_info(otp_release)]), halt().' -noshell)"
             echo "Node:    $(node --version)"
             echo ""
             echo "Commands:"

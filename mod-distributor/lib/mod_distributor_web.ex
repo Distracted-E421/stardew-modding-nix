@@ -65,8 +65,6 @@ defmodule ModDistributorWeb do
   defp html_helpers do
     quote do
       import Phoenix.HTML
-      import Phoenix.HTML.Form
-      use PhoenixHTMLHelpers
 
       import ModDistributorWeb.CoreComponents
 

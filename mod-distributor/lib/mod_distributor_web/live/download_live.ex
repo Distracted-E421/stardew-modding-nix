@@ -106,7 +106,7 @@ defmodule ModDistributorWeb.DownloadLive do
       <div class="text-center space-y-4">
         <h1 class="text-3xl font-bold text-amber-800">
           <%= if @preset do %>
-            Download {String.capitalize(@preset)} Package
+            Download <%= String.capitalize(@preset) %> Package
           <% else %>
             Download Custom Package
           <% end %>
@@ -150,7 +150,7 @@ defmodule ModDistributorWeb.DownloadLive do
               <div class="text-center">
                 <div class="text-6xl animate-bounce">⚙️</div>
                 <p class="text-lg font-semibold text-amber-800 mt-4">Building your package...</p>
-                <p class="text-amber-600">{@message}</p>
+                <p class="text-amber-600"><%= @message %></p>
               </div>
               
               <.progress value={@progress} max={100} />
@@ -182,7 +182,7 @@ defmodule ModDistributorWeb.DownloadLive do
               <p class="text-lg font-semibold text-rose-700">
                 Something went wrong
               </p>
-              <p class="text-amber-600">{@error}</p>
+              <p class="text-amber-600"><%= @error %></p>
               <.button variant="outline" phx-click="start_download">
                 Try Again
               </.button>

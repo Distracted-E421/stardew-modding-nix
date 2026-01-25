@@ -36,6 +36,6 @@ config :mod_distributor,
 
 # Include HEEx debug annotations
 config :phoenix_live_view,
-  debug_heex_annotations: true,
+  debug_heex_annotations: false,
   enable_expensive_runtime_checks: true
 

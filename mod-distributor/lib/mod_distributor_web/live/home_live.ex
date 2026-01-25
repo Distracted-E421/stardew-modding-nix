@@ -33,7 +33,7 @@ defmodule ModDistributorWeb.HomeLive do
             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
             <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
           </span>
-          Compatible with Stardew Valley {@metadata.game_version}
+          Compatible with Stardew Valley <%= @metadata.game_version %>
         </div>
         
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-amber-900 tracking-tight">
@@ -45,7 +45,7 @@ defmodule ModDistributorWeb.HomeLive do
         </h1>
         
         <p class="max-w-2xl mx-auto text-lg text-amber-700">
-          A curated collection of <strong>{@metadata.total_mods} mods</strong> including
+          A curated collection of <strong><%= @metadata.total_mods %> mods</strong> including
           Stardew Valley Expanded, Ridgeside Village, East Scarp, and more.
           All tested and configured for the best co-op experience.
         </p>
@@ -66,7 +66,7 @@ defmodule ModDistributorWeb.HomeLive do
         
         <%= if @full_package do %>
           <p class="text-sm text-amber-600">
-            Package size: {Float.round(@full_package.size_bytes / 1_000_000_000, 1)} GB
+            Package size: <%= Float.round(@full_package.size_bytes / 1_000_000_000, 1) %> GB
           </p>
         <% end %>
       </section>
@@ -160,7 +160,7 @@ defmodule ModDistributorWeb.HomeLive do
               </p>
               
               <ul class="text-sm text-amber-600 space-y-1">
-                <li>→ Browse all {@metadata.total_mods} mods</li>
+                <li>→ Browse all <%= @metadata.total_mods %> mods</li>
                 <li>→ Filter by category</li>
                 <li>→ Check dependencies</li>
                 <li>→ Build your own pack</li>

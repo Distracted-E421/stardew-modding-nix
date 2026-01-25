@@ -54,7 +54,7 @@ defmodule ModDistributorWeb.CoreComponents do
                 </button>
               </div>
               <div id={"#{@id}-content"}>
-                {render_slot(@inner_block)}
+                <%= render_slot(@inner_block) %>
               </div>
             </.focus_wrap>
           </div>
@@ -80,7 +80,7 @@ defmodule ModDistributorWeb.CoreComponents do
 
     ~H"""
     <div
-      :if={msg = render_slot(@inner_block) || Phoenix.Flash.get(@flash, @kind)}
+      :if={render_slot(@inner_block) || Phoenix.Flash.get(@flash, @kind)}
       id={@id}
       phx-click={JS.push("lv:clear-flash", value: %{key: @kind}) |> hide("##{@id}")}
       role="alert"
@@ -94,9 +94,9 @@ defmodule ModDistributorWeb.CoreComponents do
       <p :if={@title} class="flex items-center gap-2 text-sm font-bold">
         <.icon :if={@kind == :info} name="hero-check-circle" class="h-5 w-5" />
         <.icon :if={@kind == :error} name="hero-exclamation-circle" class="h-5 w-5" />
-        {@title}
+        <%= @title %>
       </p>
-      <p class="mt-1 text-sm">{msg}</p>
+      <p class="mt-1 text-sm"><%= render_slot(@inner_block) || Phoenix.Flash.get(@flash, @kind) %></p>
       <button type="button" class="group absolute top-2 right-2 p-1" aria-label="close">
         <.icon name="hero-x-mark" class="h-4 w-4 opacity-60 group-hover:opacity-100" />
       </button>
@@ -165,7 +165,7 @@ defmodule ModDistributorWeb.CoreComponents do
       ]}
       {@rest}
     >
-      {render_slot(@inner_block)}
+      <%= render_slot(@inner_block) %>
     </button>
     """
   end
@@ -192,13 +192,13 @@ defmodule ModDistributorWeb.CoreComponents do
       {@rest}
     >
       <div :if={@header != []} class="border-b border-amber-200/50 bg-amber-50/50 px-6 py-4">
-        {render_slot(@header)}
+        <%= render_slot(@header) %>
       </div>
       <div class="p-6">
-        {render_slot(@inner_block)}
+        <%= render_slot(@inner_block) %>
       </div>
       <div :if={@footer != []} class="border-t border-amber-200/50 bg-amber-50/50 px-6 py-4">
-        {render_slot(@footer)}
+        <%= render_slot(@footer) %>
       </div>
     </div>
     """
@@ -243,7 +243,7 @@ defmodule ModDistributorWeb.CoreComponents do
         @class
       ]}
     >
-      {render_slot(@inner_block)}
+      <%= render_slot(@inner_block) %>
     </span>
     """
   end
@@ -309,4 +309,3 @@ defmodule ModDistributorWeb.CoreComponents do
     |> JS.pop_focus()
   end
 end
-
