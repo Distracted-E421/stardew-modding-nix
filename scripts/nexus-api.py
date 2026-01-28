@@ -109,7 +109,7 @@ class FileInfo:
             name=data.get("name", "Unknown"),
             version=data.get("version", "1.0"),
             category=data.get("category_name", "Main"),
-            size_kb=data.get("size_in_bytes", 0) // 1024,
+            size_kb=(data.get("size_in_bytes") or 0) // 1024,
             is_primary=data.get("is_primary", False),
         )
 

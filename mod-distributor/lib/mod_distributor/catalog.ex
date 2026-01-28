@@ -126,11 +126,34 @@ defmodule ModDistributor.Catalog do
 
     with {:ok, contents} <- File.read(catalog_path),
          {:ok, data} <- Jason.decode(contents, keys: :atoms) do
+      # Handle both flat and nested category formats
+      mods =
+        cond do
+          # Flat format with direct mods array
+          is_list(data[:mods]) ->
+            parse_mods(data[:mods])
+
+          # Nested format with categories containing mods
+          is_list(data[:categories]) ->
+            data[:categories]
+            |> Enum.flat_map(fn category ->
+              category_mods = category[:mods] || []
+              Enum.map(category_mods, fn mod ->
+                # Use category name from parent if not in mod
+                Map.put_new(mod, :category, category[:name] || "Uncategorized")
+              end)
+            end)
+            |> parse_mods()
+
+          true ->
+            []
+        end
+
       catalog = %{
-        modpack_version: data[:modpack_version] || "0.0.0",
-        game_version: data[:game_version] || "1.6.15",
-        smapi_version: data[:smapi_version] || "4.1.0",
-        mods: parse_mods(data[:mods] || []),
+        modpack_version: data[:version] || data[:modpack_version] || "0.0.0",
+        game_version: data[:gameVersion] || data[:game_version] || "1.6.15",
+        smapi_version: data[:smapiVersion] || data[:smapi_version] || "4.1.0",
+        mods: mods,
         presets: data[:presets] || %{}
       }
       {:ok, catalog}
@@ -138,22 +161,34 @@ defmodule ModDistributor.Catalog do
   end
 
   defp parse_mods(mods) do
-    Enum.map(mods, fn mod ->
+    mods
+    |> Enum.with_index()
+    |> Enum.map(fn {mod, idx} ->
       %{
-        id: mod[:id],
+        id: mod[:id] || generate_id(mod[:name], idx),
         name: mod[:name],
-        version: mod[:version],
+        version: mod[:version] || "1.0.0",
         author: mod[:author],
-        category: mod[:category],
+        category: mod[:category] || "Uncategorized",
         required: mod[:required] || false,
-        nexus_id: mod[:nexus_id],
+        nexus_id: mod[:nexus_id] || mod[:nexusId],
         dependencies: mod[:dependencies] || [],
-        file_path: mod[:file_path],
-        description: mod[:description],
-        size_mb: mod[:size_mb] || 0
+        file_path: mod[:file_path] || mod[:filePath],
+        description: mod[:description] || mod[:notes],
+        size_mb: mod[:size_mb] || mod[:sizeMb] || 0
       }
     end)
   end
+
+  defp generate_id(name, idx) when is_binary(name) do
+    name
+    |> String.downcase()
+    |> String.replace(~r/[^a-z0-9]+/, "-")
+    |> String.trim("-")
+    |> then(&"#{&1}-#{idx}")
+  end
+
+  defp generate_id(_, idx), do: "mod-#{idx}"
 
   defp empty_catalog do
     %{

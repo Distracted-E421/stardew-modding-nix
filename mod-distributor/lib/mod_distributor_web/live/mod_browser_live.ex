@@ -146,7 +146,7 @@ defmodule ModDistributorWeb.ModBrowserLive do
               <option value="all" selected={@selected_category == "all"}>All Categories</option>
               <%= for category <- @categories do %>
                 <option value={category} selected={@selected_category == category}>
-                  {String.capitalize(category)}
+                  <%= String.capitalize(category) %>
                 </option>
               <% end %>
             </select>
@@ -220,7 +220,7 @@ defmodule ModDistributorWeb.ModBrowserLive do
                     <%= if mod.required do %>
                       <.badge variant="error">Required</.badge>
                     <% end %>
-                    <.badge>{String.capitalize(mod.category)}</.badge>
+                    <.badge><%= String.capitalize(mod.category) %></.badge>
                   </div>
                   
                   <p class="text-sm text-amber-600 mt-1">
@@ -238,7 +238,7 @@ defmodule ModDistributorWeb.ModBrowserLive do
                   
                   <%= if mod.dependencies && length(mod.dependencies) > 0 do %>
                     <p class="text-xs text-amber-500 mt-2">
-                      Requires: {Enum.join(mod.dependencies, ", ")}
+                      Requires: <%= Enum.join(mod.dependencies, ", ") %>
                     </p>
                   <% end %>
                 </div>
